@@ -5,33 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moroccan Cuisine</title>
-    <link rel="stylesheet" href="./css/master.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Odin Recipes | Moroccan cuisine</h1>
-    <div class="description">
-        <p>
-            <strong>Moroccan cuisine</strong> is the cuisine of Morocco, fueled by interactions and exchanges with many cultures and nations <br>
-            over the centuries.Moroccan cuisine is usually a mix of Berber, <em>Andalusi</em>, <em>Mediterranean</em>, and <em>Arab</em> cuisines <br>
-            with minimal European (French and Spanish) and sub-Saharan influences. Like the rest of the <em>Maghrebi</em> cuisine,<br>
-            Moroccan cuisine has more in common with Middle Eastern cuisine than with the rest of Africa. <br>
-        </p>
-    </div>
-    <a href="#"><img src="./img/morrocan_cuisine.jpg" alt="Morocan cuisine"></a>
-    <br>
-    <hr>
-    <br>
-
-    <div>
-        <p>
-            <h2>Top 3 dishes</h2>
+    <header class="main-header">
+        <nav class="nav main-nav">
             <ul>
-                <li><a href="recipes/couscous.html"><b>Couscous</b></a></li>
-                <li><a href="recipes/tajine.html"><b>Tajine</b></a></li>
-                <li><a href="recipes/tanjia.html"><b>Tanjia</b></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="menu.html">Recipes</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
-        </p>
-    </div>
-    
+        </nav>
+        <h1 class="header-title">Odin Recipes</h1>
+        <a href="./menu.html"><button class="btn btn-header" type="button">See Our Latest dishes</button></a>
+    </header>
+    <section class="content-section container">
+        <h2 class="section-header">Menu Du Jour</h2>
+        <div>
+            <div class="menu-row">
+                <span class="menu-item menu-meal">Breakfast</span>
+                <span class="menu-item menu-food">Fried Eggs with Olives</span>
+                <button type="button" class="menu-item btn menu-btn btn-primary">Order</button>
+            </div>
+            <div class="menu-row">
+                <span class="menu-item menu-meal">Lunch</span>
+                <span class="menu-item menu-food">Chicken Rfissa</span>
+                <button type="button" class="menu-item btn menu-btn btn-primary">Order</button>
+            </div>
+            <div class="menu-row">
+                <span class="menu-item menu-meal">Dinner</span>
+                <span class="menu-item menu-food">Spaghettis au brocoli et filet de sardines</span>
+                <button type="button" class="menu-item btn menu-btn btn-primary">Order</button>
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="header-title">Odin Recipes</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://youtube.com" target="_blank">
+                    <img src="./img/YouTube Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="./img/Facebook Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="./img/Instagram Logo.svg" width="27px" height="27px">
+                    </a>  
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
